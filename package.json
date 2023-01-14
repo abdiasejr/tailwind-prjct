@@ -1,0 +1,25 @@
+{
+  "name": "tailwind-project",
+  "version": "1.0.0",
+  "description": "project to learn how to use tailwind",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdiasejr/tailwind-project.git"
+  },
+  "keywords": [
+    "tailwind",
+    "css",
+    "html",
+    "layout"
+  ],
+  "author": "r3gum",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abdiasejr/tailwind-project/issues"
+  },
+  "homepage": "https://github.com/abdiasejr/tailwind-project#readme"
+}
