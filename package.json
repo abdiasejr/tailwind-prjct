@@ -1,7 +1,8 @@
 {
   "name": "tailwind-project",
   "version": "0.1.0",
-  "private": true,
+  "description": "project to learn how to use tailwind",
+  "main": "index.js",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -37,5 +38,21 @@
   },
   "devDependencies": {
     "tailwindcss": "^3.2.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdiasejr/tailwind-project.git"
+  },
+  "keywords": [
+    "tailwind",
+    "css",
+    "html",
+    "layout"
+  ],
+  "author": "r3gum",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abdiasejr/tailwind-project/issues"
+  },
+  "homepage": "https://github.com/abdiasejr/tailwind-project#readme"
 }
