@@ -1,9 +1,11 @@
+import { Header } from "./components/Header";
+import { Main } from "./containers/Main";
+
 function App() {
   return (
-    <div className="h-screen w-screen flex justify-center items-center">
-      <h1 className="text-center text-xl font-medium lowercase">
-        Hello World!
-      </h1>
+    <div className="font-Montserrat">
+      <Header />
+      <Main />
     </div>
   );
 }
