@@ -1,4 +1,4 @@
-export const cardList = [
+export const recomendedList = [
   {
     bg: "bg-norway",
     title: "Norway",

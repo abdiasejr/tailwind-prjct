@@ -15,17 +15,17 @@ export const Header = () => {
       </button>
       <label className="relative self-center">
         {!changed && (
-          <BiSearch className=" absolute left-28 bottom-[0.88rem] block text-xl  text-primary " />
+          <BiSearch className=" absolute left-14 bottom-[0.90rem] block text-xl  text-primary " />
         )}
         <input
           type="search"
-          className="peer h-12 w-[21.5rem] self-center rounded-full border-none bg-white py-2 px-5 text-center shadow-lg focus:border-none focus:outline-none"
+          className="w-min-[20rem] peer h-12 w-72 self-center rounded-full border-none bg-white py-2 px-5 text-center shadow-lg "
           placeholder="        San Francisco"
           onChange={(e) => handleChange(e)}
         />
       </label>
       <button
-        className=" mt-64 h-12 w-48 self-center rounded-full bg-white px-11 pt-3 pb-4 font-bold text-primary shadow-lg hover:bg-primary hover:text-white
+        className=" mt-64 h-12 w-48 transform self-center rounded-full bg-white px-11 pt-3 pb-4 font-bold text-primary shadow-lg transition-all duration-500 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-primary hover:text-white hover:shadow-2xl
         "
       >
         Explore More

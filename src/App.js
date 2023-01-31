@@ -3,7 +3,7 @@ import { Main } from "./containers/Main";
 
 function App() {
   return (
-    <div className="font-Montserrat">
+    <div className="w-full font-Montserrat">
       <Header />
       <Main />
     </div>
