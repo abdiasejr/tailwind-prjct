@@ -9,7 +9,7 @@ module.exports = {
       terciary: "#61AEC9",
     },
     fontFamily: {
-      Montserrat: ["Monserrat", "sans-serif"],
+      Montserrat: ["Montserrat", "sans-serif"],
     },
     extend: {
       backgroundImage: {
