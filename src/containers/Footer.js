@@ -2,7 +2,7 @@ import { GrInstagram, GrTwitter } from "react-icons/gr";
 
 export const Footer = () => {
   return (
-    <footer className="mt-5 flex flex-col bg-primary px-7 pb-2 text-white">
+    <footer className="mt-5 flex flex-col bg-primary px-7 pb-20 text-white">
       <h3 className="pt-10 text-xl font-bold not-italic tracking-wide">
         About Us
       </h3>
