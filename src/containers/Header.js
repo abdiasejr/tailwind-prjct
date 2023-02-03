@@ -9,7 +9,10 @@ export const Header = () => {
     if (e.target.value === "") setChanged(false);
   };
   return (
-    <header className="flex h-[30.5rem] w-full flex-col gap-5 bg-sanFrancisco bg-cover bg-center bg-no-repeat p-5">
+    <header
+      id="home"
+      className="flex h-[30.5rem] w-full flex-col gap-5 bg-sanFrancisco bg-cover bg-center bg-no-repeat p-5"
+    >
       <button className="h-8 w-14 self-end rounded-full bg-white py-2  px-5 text-primary">
         <IoMdMoon />
       </button>
