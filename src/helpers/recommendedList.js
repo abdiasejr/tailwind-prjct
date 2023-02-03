@@ -1,4 +1,4 @@
-export const recomendedList = [
+export const recommendedList = [
   {
     bg: "bg-norway",
     title: "Norway",
