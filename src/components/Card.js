@@ -3,9 +3,11 @@ export const Card = ({ item, i }) => {
     <div
       className={`h-64 w-48 flex-none rounded-lg ${
         i % 2 === 0 ? "bg-terciary text-white" : "bg-white text-terciary"
-      } transform transition-all hover:-translate-y-4 hover:shadow-xl`}
+      } transform overscroll-y-none transition-all hover:-translate-y-4 hover:shadow-xl lg:h-[21rem] lg:w-[17.5rem] `}
     >
-      <div className={`h-3/5 w-full rounded-t-lg ${item.bg} bg-cover`}></div>
+      <div
+        className={`h-3/5 w-full rounded-t-lg ${item.bg} bg-cover bg-center`}
+      ></div>
       <h2 className="pl-3 pt-2 text-lg font-bold not-italic tracking-wide ">
         {item.title}
       </h2>

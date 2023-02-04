@@ -1,11 +1,11 @@
-import { Header, Main, Footer } from "./containers";
-import { Recommended, Popular, FAQ } from "./components";
+import { Header, Main, Footer, Nav } from "./containers";
+import { Recommended, Popular, FAQ, NavBar } from "./components";
 import { faqsList } from "./helpers/faqsList";
-import { NavBar } from "./components/NavBar";
 
 function App() {
   return (
-    <div className="m-auto max-w-screen-xl font-Montserrat">
+    <div className="w-full font-Montserrat selection:bg-black selection:text-white">
+      <Nav />
       <Header />
       <NavBar />
       <Main>

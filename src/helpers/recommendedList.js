@@ -24,4 +24,14 @@ export const recommendedList = [
     title: "Switzerland",
     subtitle: "Peaceful and quiet",
   },
+  {
+    bg: "bg-iceland",
+    title: "Iceland",
+    subtitle: "Cold and beautiful",
+  },
+  {
+    bg: "bg-europe",
+    title: "Edinburgh",
+    subtitle: "Old continent",
+  },
 ];

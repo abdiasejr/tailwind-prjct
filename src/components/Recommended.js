@@ -7,7 +7,7 @@ export const Recommended = () => {
       <h2 className=" mt-7 text-2xl font-bold not-italic  text-primary">
         Our Recomendations
       </h2>
-      <div className=" flex h-80 w-auto flex-row items-center gap-5 overflow-x-auto overscroll-contain pr-5 ">
+      <div className=" flex h-80 w-auto flex-row items-center gap-5 overflow-x-auto overscroll-contain pr-5 lg:h-96 lg:overflow-y-hidden ">
         {recommendedList.map((item, i) => (
           <Card key={i} item={item} i={i} />
         ))}
