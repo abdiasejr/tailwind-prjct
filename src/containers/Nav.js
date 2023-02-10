@@ -6,7 +6,7 @@ export const Nav = () => {
   return (
     <nav className="absolute hidden h-[4.5rem]  w-full cursor-pointer flex-row items-center justify-between px-5 text-lg font-bold text-primary md:flex md:bg-white">
       <h1>Platzi Travel</h1>
-      <ul className="flex flex-row gap-5">
+      <ul className="flex flex-row gap-10">
         <li>Locations</li>
         <li>Stays</li>
         <li>FAQs</li>
