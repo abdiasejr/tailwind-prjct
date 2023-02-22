@@ -1,10 +1,10 @@
 import { Header, Main, Footer, Nav } from "./containers";
 import { Recommended, Popular, FAQ, NavBar } from "./components";
-import { faqsList } from "./helpers/faqsList";
+import { faqsList } from "./mock/faqsList";
 
 function App() {
   return (
-    <div className="w-full font-Montserrat selection:bg-black selection:text-white">
+    <div className="w-full font-Montserrat text-primary selection:bg-black selection:text-white dark:bg-gray-900 dark:text-white">
       <Nav />
       <Header />
       <NavBar />
@@ -15,10 +15,10 @@ function App() {
           <div className="flex w-full flex-col gap-3 px-7">
             {faqsList.map((item, i) => (
               <div key={i} className="flex flex-col gap-2">
-                <h3 className="text-base font-semibold text-primary md:text-xl">
+                <h3 className="text-base font-semibold md:text-xl">
                   {item.question}
                 </h3>
-                <p className="mr-8 text-xs font-medium text-black md:text-base">
+                <p className="mr-8 text-xs font-medium text-black dark:text-white md:text-base">
                   {item.answer}
                 </p>
               </div>

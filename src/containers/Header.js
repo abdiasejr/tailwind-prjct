@@ -1,23 +1,34 @@
-import { IoMdMoon } from "react-icons/io";
+import { IoMdMoon, IoMdSunny } from "react-icons/io";
 import { useState } from "react";
 import { SearchBar } from "../components/SearchBar";
+import { darkMode } from "../helpers/darkMode";
 
 export const Header = () => {
   const [changed, setChanged] = useState(false);
+  const [isDark, setIsDark] = useState(false);
   const handleChange = (e) => {
     if (!changed) setChanged(true);
     if (e.target.value === "") setChanged(false);
   };
+
+  const handleClick = () => {
+    const flag = darkMode();
+    setIsDark(flag);
+  };
   return (
     <header
       id="home"
-      className="flex h-[30.5rem] w-full flex-col gap-5 bg-sanFrancisco bg-cover bg-center bg-no-repeat p-5 md:justify-center md:bg-sanFranciscoDesktop lg:h-[42rem] "
+      className="dark:bg-cov dark:bg-no-repeatz flex h-[30.5rem] w-full flex-col gap-5 bg-sanFrancisco bg-cover bg-center bg-no-repeat p-5 dark:bg-newYork md:justify-center md:bg-sanFranciscoDesktop dark:md:bg-newYork lg:h-[42rem]"
     >
-      <button className="h-8 w-14 self-end rounded-full bg-white py-2  px-5 text-primary md:hidden">
-        <IoMdMoon />
+      <button className="h-8 w-14 self-end rounded-full bg-white py-2 px-5  text-primary dark:bg-gray-900 dark:text-white md:hidden">
+        {isDark ? (
+          <IoMdSunny onClick={handleClick} />
+        ) : (
+          <IoMdMoon onClick={handleClick} />
+        )}
       </button>
       <SearchBar changed={changed} handleChange={handleChange} />
-      <h1 className="hidden cursor-pointer justify-start text-4xl font-bold text-black transition-all hover:scale-110 md:ml-20 md:block md:w-1/2">
+      <h1 className="hidden cursor-pointer justify-start text-4xl font-bold text-black transition-all hover:scale-110 dark:text-white md:ml-20 md:block md:w-1/2">
         Find your perfect trip, designed by insiders who know and love their
         cities.
       </h1>
