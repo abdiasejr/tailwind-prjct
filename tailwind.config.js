@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  darkMode: "class", // or 'media' or 'class'
   theme: {
     colors: {
       ...require("tailwindcss/colors"),
@@ -29,6 +30,7 @@ module.exports = {
         chicago: "url('/src/img/chicago.jpg')",
         europe: "url('/src/img/europe.jpg')",
         iceland: "url('/src/img/iceland.jpg')",
+        newYork: "url('/src/img/newYork.jpg')",
       },
     },
   },
