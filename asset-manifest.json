@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/tailwind-prjct/static/css/main.131ba104.css",
+    "main.js": "/tailwind-prjct/static/js/main.17f03baf.js",
+    "static/media/newYork.jpg": "/tailwind-prjct/static/media/newYork.a9007722047f67e7dd92.jpg",
+    "static/media/sanFrancisco.jpg": "/tailwind-prjct/static/media/sanFrancisco.7bf3d5b0c1deb5ee167c.jpg",
+    "static/media/sanFranciscoDesktop.jpg": "/tailwind-prjct/static/media/sanFranciscoDesktop.4a5ecbcb3da5c7b91b91.jpg",
+    "static/media/europe.jpg": "/tailwind-prjct/static/media/europe.e9ef4a6837332bf7e173.jpg",
+    "static/media/iceland.jpg": "/tailwind-prjct/static/media/iceland.8ebd07c95769b5e87b28.jpg",
+    "static/media/bali.jpg": "/tailwind-prjct/static/media/bali.470349c5b92cb2072ceb.jpg",
+    "static/media/LA.jpg": "/tailwind-prjct/static/media/LA.2e36b4259b0364c745ee.jpg",
+    "static/media/miami.jpg": "/tailwind-prjct/static/media/miami.5f4eb8815f04d25d07cd.jpg",
+    "static/media/chicago.jpg": "/tailwind-prjct/static/media/chicago.b26c77b39059deb8c91a.jpg",
+    "static/media/switzerland.jpg": "/tailwind-prjct/static/media/switzerland.90e4eb5e154c42bf3983.jpg",
+    "static/media/norway.jpg": "/tailwind-prjct/static/media/norway.fc83a69159261b5a3767.jpg",
+    "static/media/yosemite.jpg": "/tailwind-prjct/static/media/yosemite.0c932a6bead2aa2e8320.jpg",
+    "static/media/new_york.jpg": "/tailwind-prjct/static/media/new_york.f008f0210376f0b76ab9.jpg",
+    "static/media/seattle.jpg": "/tailwind-prjct/static/media/seattle.6d620466c5d9792df7b6.jpg",
+    "index.html": "/tailwind-prjct/index.html",
+    "main.131ba104.css.map": "/tailwind-prjct/static/css/main.131ba104.css.map",
+    "main.17f03baf.js.map": "/tailwind-prjct/static/js/main.17f03baf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.131ba104.css",
+    "static/js/main.17f03baf.js"
+  ]
+}
