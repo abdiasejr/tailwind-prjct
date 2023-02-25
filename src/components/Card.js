@@ -2,7 +2,9 @@ export const Card = ({ item, i }) => {
   return (
     <div
       className={`h-64 w-48 flex-none rounded-lg ${
-        i % 2 === 0 ? "bg-terciary text-white" : "bg-white text-terciary"
+        i % 2 === 0
+          ? "bg-terciary text-white dark:bg-gray-700"
+          : "bg-white text-terciary dark:bg-gray-800 dark:text-white"
       } transform overscroll-y-none transition-all hover:-translate-y-4 hover:shadow-xl lg:h-[21rem] lg:w-[17.5rem] `}
     >
       <div
